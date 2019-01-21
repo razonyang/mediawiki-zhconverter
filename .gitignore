@@ -1,0 +1,7 @@
+# Editors or IDEs
+/.idea/
+
+# Composer
+composer.lock
+composer.phar
+/vendor/
