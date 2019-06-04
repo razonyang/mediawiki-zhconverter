@@ -12,7 +12,7 @@
 ### 安裝
 
 ```
-comspoer require razonyang/mediawiki-zhconverter
+composer require razonyang/mediawiki-zhconverter
 ```
 
 如果不打算使用 Composer 安装，需要主动设置 MediaWiki 的目录路径常量： `MEDIAWIKI_PATH`：
