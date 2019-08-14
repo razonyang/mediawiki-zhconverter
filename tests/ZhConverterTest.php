@@ -1,7 +1,4 @@
 <?php
-/**
- * @copyright 2019 Razon Yang <razonyang@gmail.com>
- */
 use PHPUnit\Framework\TestCase;
 use RazonYang\MediaWiki\ZhConverter\ZhConverter;
 
