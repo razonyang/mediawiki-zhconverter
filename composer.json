@@ -17,6 +17,11 @@
       "RazonYang\\MediaWiki\\ZhConverter\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "RazonYang\\MediaWiki\\ZhConverter\\Tests\\": "tests/"
+    }
+  },
   "require-dev": {
     "phpunit/phpunit": "^7"
   }

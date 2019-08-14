@@ -1,5 +1,12 @@
 # 基于 MediaWiki 的简繁体转换
 
+[![Build Status](https://travis-ci.org/razonyang/mediawiki-zhconverter.svg?branch=master)](https://travis-ci.org/razonyang/mediawiki-zhconverter)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/razonyang/mediawiki-zhconverter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/razonyang/mediawiki-zhconverter/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/razonyang/mediawiki-zhconverter/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/razonyang/mediawiki-zhconverter/?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/razonyang/mediawiki-zhconverter.svg)](https://packagist.org/packages/razonyang/mediawiki-zhconverter)
+[![Total Downloads](https://img.shields.io/packagist/dt/razonyang/mediawiki-zhconverter.svg)](https://packagist.org/packages/razonyang/mediawiki-zhconverter)
+[![LICENSE](https://img.shields.io/github/license/razonyang/mediawiki-zhconverter)](LICENSE)
+
 源码参考自 [https://github.com/tszming/mediawiki-zhconverter](https://github.com/tszming/mediawiki-zhconverter)。
 并在其基础上重写，以便用于 Composer 安装和方便使用。
 

@@ -1,4 +1,6 @@
 <?php
+namespace RazonYang\MediaWiki\ZhConverter\Tests;
+
 use PHPUnit\Framework\TestCase;
 use RazonYang\MediaWiki\ZhConverter\ZhConverter;
 
