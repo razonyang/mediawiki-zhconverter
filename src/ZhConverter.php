@@ -3,8 +3,8 @@ namespace RazonYang\MediaWiki\ZhConverter;
 
 use MediaWiki\Logger\NullSpi;
 
-define('MEDIAWIKI', true);
-!defined('MEDIAWIKI_PATH') && define('MEDIAWIKI_PATH', ComposerHelper::getVendorPath() . '/mediawiki/core');
+defined('MEDIAWIKI') || define('MEDIAWIKI', true);
+defined('MEDIAWIKI_PATH') || define('MEDIAWIKI_PATH', ComposerHelper::getVendorPath() . '/mediawiki/core');
 
 require_once __DIR__ . '/functions.php';
 require_once MEDIAWIKI_PATH . '/includes/GlobalFunctions.php';
@@ -42,7 +42,7 @@ class ZhConverter
             $wgDisabledVariants = [];
             $wgExtraLanguageNames = [];
             $wgLangConvMemc = new FakeMemCachedClient;
-            define('CACHE_NONE', 'FAKE');
+            defined('CACHE_NONE') || define('CACHE_NONE', 'FAKE');
             $wgObjectCaches = [
                 'FAKE' => ['class' => FakeMemCachedClient::class],
             ];
