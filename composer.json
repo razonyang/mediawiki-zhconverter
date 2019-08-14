@@ -10,7 +10,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "mediawiki/core": "1.26.0"
+    "mediawiki/core": "1.26"
   },
   "autoload": {
     "psr-4": {
@@ -23,6 +23,6 @@
     }
   },
   "require-dev": {
-    "phpunit/phpunit": "^6"
+    "phpunit/phpunit": "^4"
   }
 }
