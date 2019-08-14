@@ -3,7 +3,7 @@ namespace RazonYang\MediaWiki\ZhConverter;
 
 class WebRequest
 {
-    function getText()
+    public function getText()
     {
         return false;
     }

@@ -3,77 +3,76 @@ namespace RazonYang\MediaWiki\ZhConverter;
 
 class FakeMemCachedClient
 {
-    function add($key, $val, $exp = 0)
+    public function add($key, $val, $exp = 0)
     {
         return true;
     }
 
-    function decr($key, $amt = 1)
+    public function decr($key, $amt = 1)
     {
         return null;
     }
 
-    function delete($key, $time = 0)
+    public function delete($key, $time = 0)
     {
         return false;
     }
 
-    function makeKey()
-    {
-
-    }
-
-    function disconnect_all()
+    public function makeKey()
     {
     }
 
-    function enable_compress($enable)
+    public function disconnect_all()
     {
     }
 
-    function forget_dead_hosts()
+    public function enable_compress($enable)
     {
     }
 
-    function get($key)
+    public function forget_dead_hosts()
+    {
+    }
+
+    public function get($key)
     {
         return null;
     }
 
-    function get_multi($keys)
+    public function get_multi($keys)
     {
         return array_pad(array(), count($keys), null);
     }
 
-    function incr($key, $amt = 1)
+    public function incr($key, $amt = 1)
     {
         return null;
     }
 
-    function replace($key, $value, $exp = 0)
+    public function replace($key, $value, $exp = 0)
     {
         return false;
     }
 
-    function run_command($sock, $cmd)
+    public function run_command($sock, $cmd)
     {
         return null;
     }
 
-    function set($key, $value, $exp = 0)
+    public function set($key, $value, $exp = 0)
     {
         return true;
     }
 
-    function set_compress_threshold($thresh)
+    public function set_compress_threshold($thresh)
     {
     }
 
-    function set_debug($dbg)
+    public function set_debug($dbg)
     {
     }
 
-    function set_servers($list)
+    public function set_servers($list)
     {
     }
 }
