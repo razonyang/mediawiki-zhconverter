@@ -13,6 +13,7 @@
 ## 要求
 
 - PHP >= 5.5
+- Mediawiki 请使用 [composer.json](composer.json) 指定的版本，其他版本可能不起作用。
 
 ## 使用
 
