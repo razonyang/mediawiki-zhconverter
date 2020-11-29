@@ -10,7 +10,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "mediawiki/core": "1.26"
+    "mediawiki/core": "1.26.1"
   },
   "autoload": {
     "psr-4": {
