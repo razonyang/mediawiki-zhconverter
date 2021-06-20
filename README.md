@@ -1,3 +1,9 @@
+:warning: 此项目由于以下原因将不再维护，推荐使用 [OpenCC](https://github.com/razonyang/php-opencc) 进行简繁体转换。
+
+- 依赖 MediaWiki，为了简繁体转换，导致项目过于臃肿
+- MediaWiki 不支持 PHP 8，并且该库状态为 [Abandoned](https://packagist.org/packages/mediawiki/core)
+- MediaWiki 不支持 Composer 2
+
 # 基于 MediaWiki 的简繁体转换
 
 [![Build Status](https://travis-ci.org/razonyang/mediawiki-zhconverter.svg?branch=master)](https://travis-ci.org/razonyang/mediawiki-zhconverter)
